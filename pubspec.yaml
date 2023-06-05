@@ -1,0 +1,31 @@
+name: flutter_external_app
+description: A new Flutter plugin to open external app natively via passing url data.
+version: 1.0.0
+homepage: https://hmbadhon.me/
+repository: https://github.com/hmbadhon/flutter_external_app
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+  flutter: ">=2.5.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: me.hmbadhon.flutter_external_app
+        pluginClass: FlutterExternalAppPlugin
+      ios:
+        pluginClass: FlutterExternalAppPlugin
+
