@@ -27,6 +27,25 @@ Widget build(BuildContext context) {
 }
 ```
 
+
+## 🚀 Showcase
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/hmbadhon/flutter_external_app/assets/24831033/5c6c65b2-2a98-4b6a-9079-95d9f8649df9" width="350px" height="700px">
+      <br />
+      Android Demo
+    </td>
+    <td align="center">
+      <img src="https://github.com/hmbadhon/flutter_external_app/assets/24831033/9a756d19-d9a8-475b-a5c2-c129bd7438eb" width="350px" height="700px">
+      <br />
+      IOS Demo
+    </td>
+  </tr>
+</table>
+
+
 ## 🐛 Bugs/Requests
 
 If you encounter any problems feel free to open an issue. If you feel the library is
